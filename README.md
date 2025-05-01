@@ -8,6 +8,9 @@
 
 This project presents a **custom-designed PCB and schematic** for a fuel injection controller using the ESP32 microcontroller. It is suitable for small-displacement motorcycles and is designed with expandability in mind.
 
+![image](https://github.com/user-attachments/assets/2c08b3c8-418d-434b-9be3-4bbb513b2b20)
+![image](https://github.com/user-attachments/assets/37c3be21-d724-4f84-9bdf-0ca621b05ec7)
+
 ### Key Highlights
 - Designed to handle RPM, MAP, IAT, TPS sensor inputs
 - Injector driver circuit (compatible with Mio J injector)
