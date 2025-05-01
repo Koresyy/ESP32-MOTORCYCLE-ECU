@@ -1,32 +1,22 @@
-# ESP32-MOTORCYCLE-ECU
+# ESP32-MOTORCYCLE-ECU (HARDWARE ONLY)
 
-An open-source fuel control system designed for small-displacement motorcycles using the ESP32 microcontroller. This project manages fuel injection based on real-time engine data and is ideal for DIY EFI experiments, student projects, or performance upgrades.
+📌 THIS BOARD IS INTENDED FOR PROTOTYPING PURPOSES ONLY.  
+📌 NO SOFTWARE/CODE IS INCLUDED IN THIS REPOSITORY.  
+📌 THIS PROJECT FOCUSES EXCLUSIVELY ON THE HARDWARE DESIGN OF A MOTORCYCLE FUEL CONTROL SYSTEM USING ESP32.
 
-## 🚀 Features
+## ⚙️ Overview
 
-- Real-time fuel injection control via ESP32 (MicroPython)
-- Compatible with standard motorcycle sensors
-- Fuel map stored in EEPROM for persistent tuning
+This project presents a **custom-designed PCB and schematic** for a fuel injection controller using the ESP32 microcontroller. It is suitable for small-displacement motorcycles and is designed with expandability in mind.
 
-## 🔧 Hardware Requirements
+### Key Highlights
+- Designed to handle RPM, MAP, IAT, TPS sensor inputs
+- Injector driver circuit (compatible with Mio J injector)
+- Power supply filtering and protection
+- UART/I2C communication interface between controllers
+- Expansion pins for future modules (e.g., speedometer, data logger)
 
-- **Microcontroller**: ESP32 or ESP32-S3
-- **Injector**: Yamaha Mio J series
-- **Sensors** (VEGA Force FI compatible):
-  - Manifold Air Pressure (MAP)
-  - Intake Air Temperature (IAT)
-  - Throttle Position Sensor (TPS)
-- **Power Supply**: 12V DC motorcycle battery (with proper regulation)
+## 🔒 Disclaimer
 
-## 🎯 Project Scope
-
-This ECU system is **fuel-only** — it does **not** control ignition timing. The system is focused on:
-- Stable and tunable fuel delivery
-- Learning platform for EFI concepts
-- Integration into existing motorcycles without altering ignition
-
-## ⚠️ Disclaimer
-
-Use at your own risk. This system is meant for learning, testing, and controlled environments. Always verify fuel delivery and engine behavior before running full load or long durations.
-
----
+🚨 **THIS IS NOT A PRODUCTION-READY ECU.**  
+This board is for **educational and prototyping use only**. Use with caution.  
+Author is not responsible for any damage caused by misuse or improper wiring.
