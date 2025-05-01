@@ -7,8 +7,6 @@ An open-source fuel control system designed for small-displacement motorcycles u
 - Real-time fuel injection control via ESP32 (MicroPython)
 - Compatible with standard motorcycle sensors
 - Fuel map stored in EEPROM for persistent tuning
-- Supports modular add-ons (e.g. speedometer, logging, diagnostics)
-- Inter-controller communication via UART or I2C
 
 ## 🔧 Hardware Requirements
 
